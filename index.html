@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style2.css" rel="stylesheet" type="text/css">
+  <style>
+    body {background-color: #245000;}
+    </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+   <body style="background-color: #888888;">
+  <header>
+    <div id="main logo">
+      <h1>
+      <img src="logo.jpg" width="200"/>
+        </h1>
+    </div>
+    <nav>
+  <ul>
+    <li><a href="/">홈</a></li>
+    <li><a href="/">베스트</a></li>
+    <li><a href="/" target="_blank">MY페이지</a></li>
+  </ul>
+    </nav>
+
+  </header>
+  <main style="width: 800px; margin: 0 auto;"> 
+    <section>
+     <form action="/signup" method="post">
+       <p>회원가입</p>
+       <label for="username">닉네임</label>
+       <input name="username" type="text" maxlength="10">
+       <datalist id="name">
+       </datalist>
+       <label for="u-email">이메일</label>
+       <input id="u-email" name="email" type="email" maxlength="20">
+       <label for="u-pw">비밀번호</label>
+       <input id="u-pw" name="password" type="password" maxlength="20"">
+       <input type="submit">
+       <button type="reset">초기화</button>
+     </form>
+    </section>
+    <section>
+      <article id = "top"></article>
+      <h1>웃긴게시글</h1>
+    <article id = "article1">
+  <h1>어른이 되고 나서야 깨달을 수 있는 것.jpg</h1>
+    <p>어릴 때 지하철에서 집중해서 노트북하는 직장인을 보면 정말 멋진 어른이라고 생각했다</p>
+      <p>지금은 안다</p>
+      <p>지하철에서 노트북하는 어른은 멋진 어른이 아니라 ㅈ된 어른이란걸..</p>
+      </article>
+      <article id = "article2">
+    <h1>아재 개그 모음집</h1>
+    <details>
+      <summary>스님이 길을 가다 9를 보면?</summary>
+      <p>구본승</p>
+    </details>
+    <details>
+      <summary>중2병을 다른말로하면?</summary>
+      <p>중이염</p>
+    </details>
+    <details>
+      <summary>감자가 질문을 하면?</summary>
+      <p>웨지감자</p>
+    </details>
+        </article>
+      </section>
+    <section>
+      <h2>월별 베스트 게시글</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>3월</th>
+            <th>4월</th>
+            <th>5월</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>남남수수학학원원장</td>
+            <td>아저씨 우체국이 어디있는지 아세요?</td>
+            <td>설날 특집 모음집</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>조회수 합계</td>
+            <td>6회</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section>
+      <h3>Q&A</h3>
+      <details open>
+        <summary>이 사이트는 어떻게 생성된 것인가요?</summary>
+<ul>
+        <li>국민대학교 경영대학원 디지털마케팅전공 과제를 위해 개설된 사이트입니다.</li>
+  </ul>
+      </details>
+        <details open>
+        <summary>이 사이트는 목적은 무엇인가요?</summary>
+        <ul>
+          <li>웃긴대학원라는 사이트 제목을 통해 국민대학교 학생들에게 웃음을 전달하기 위함입니다.</li>
+          </ul>
+      </details>
+    </section>
+
+  </main>
+  <aside>
+    <h3>다른 게시글</h3>
+    <ul>
+      <li><a href="#article1">어른이 되고 나서야 깨달을 수 있는 것.jpg</a></li>
+      <li><a href="#article2">아재 개그 모음집</a></li>
+      <li><a href="#top">위로가기</a></li>
+    </ul>
+  </aside>
+      <p>&copy; 국민대 경영대학원 디지털마케팅전공</p>
+      </div>
+     </footer>
+</body>
+</html>
