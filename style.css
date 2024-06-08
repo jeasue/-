@@ -27,16 +27,16 @@ h1, h2, h3, h4, h5, h6 {
 .p-justify{ text-align: justify;
 }
 #article1 > h1{
-  letter-spacing: -0.1rem;
-  word-spacing: 3rem;
+  letter-spacing: -0.2rem;
+  word-spacing: 1rem;
 }
 .long-text {
-  line-height: 3rem;
+  line-height: 1rem;
 }
 #article2 > h1{
-  letter-spacing: -0.1rem;
-  word-spacing: 3rem;
+  letter-spacing: -0.2rem;
+  word-spacing: 1rem;
 }
 .long-text {
-  line-height: 3rem;
+  line-height: 1rem;
 }
